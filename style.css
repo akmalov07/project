@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./images/695f53ed0b5bb6f04703f71b578596c0.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.logo {
+    background-color: rgb(255, 89, 0);
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navlink {
+    color: white;
+    background-color: rgb(255, 89, 0);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 40px;
+    border-radius: 24px;
+}
+
+.form input {
+    background-color: transparent;
+    border-radius: 24px;
+    border: 2px solid white;
+    height: 30px;
+    position: relative;
+    background-image: url(./images/loupe.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+
+.dizayn {
+    width: 26%;
+    margin: 400px 0 300px 0;
+    color: rgb(255, 89, 0);
+    font-size: 40px;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 120%;
+    margin-left: -120px;
+    padding: 40px 80px 20px 40px;
+}
+
+.why {
+    color: rgb(255, 89, 0);
+    width: 10%;
+    font-size: 40px;
+}
+
+.wrapperlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapperlink {
+    width: 28%;
+    margin: 20px;
+}
+
+.number {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.wrapperjo {
+    color: rgb(255, 89, 0);
+    margin-bottom: 20px;
+}
+
+.wrappertext {
+    color: rgb(255, 89, 0);
+    width: 69%;
+    margin-bottom: 30px;
+}
+
+.sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 30px;
+}
+
+.secdiv {
+    background-image: url(./images/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 250px;
+    border-radius: 24px;
+}
+
+.none {
+    background-image: url(./images/images.jpg);
+}
+
+.secitem {
+    color:rgb(255, 89, 0);
+    margin: 50px 0px 0px 20px;
+    font-size: 20px;
+}
+
+.secmebel {
+    color: rgb(255, 89, 0);
+    margin: 20px 0px 0px 20px;
+    font-size: 20px;
+}
+
+.tovar {
+    background-color:rgb(255, 89, 0) ;
+    color: white;
+    margin: 40px auto;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px;
+}
+
+.seclist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+[alt="img"] {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.seclink {
+    width: 18%;
+    background-color: black;    
+}
+
+
+
+.secitemm {
+    margin: 20px ;
+    font-size: 20px;
+    color:rgb(255, 89, 0) ;
+}
+
+.nomer {
+    margin: 20px 35px;
+    font-size: 20px;
+    color: rgb(255, 89, 0);
+}
+
+.korzinku {
+    background-color:rgb(255, 89, 0) ;
+    color: white;
+    margin: 20px;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px;
+    border: none;
+}
+
+.sectionn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 30px;
+}
+
+[alt="back"] {
+    width: 120%;
+    height: 250px;
+    border-radius:12px ;
+}
+
+.nas {
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.sectiontext {
+    width: 65%;
+    font-size: 20px;
+    color: rgb(255, 89, 0);
+} 
+
+.secc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+[alt="lol"] {
+    width: 40%;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.top {
+    width: 50%;
+}
+
+.seccitem {
+    margin-bottom: 40px;
+    font-size: 40px;
+    width: 100%;
+}
+
+.secclist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seclink {
+    width: 30%;
+    background-color: white;
+    margin: 5px;
+}
+
+.num {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.secctext {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 540;
+    color: rgb(255, 89, 0);
+} 
+
+.bacimg {
+    background-image: url(./images/bacround\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.gost {
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    left: 920px;
+    top: 100px;   
+    color: rgb(255, 89, 0);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 100px 0;
+}
+
+.mm {
+    color: rgb(255, 89, 0);
+    font-size: 35px;
+}
+
+.ll {
+    color: rgb(255, 89, 0);
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.wood {
+    color: rgb(255, 89, 0);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.nomerr {
+    color: rgb(255, 89, 0);
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.loll {
+    color: rgb(255, 89, 0);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.iframe {
+    height: 300px;
+    text-align: center;
+    border-radius: 12px;
+    margin-right: 70px;
+}
+
